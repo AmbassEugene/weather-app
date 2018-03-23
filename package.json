@@ -2,9 +2,10 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AmbassEugene.github.io/my-app",
+  "homepage": "https://AmbassEugene.github.io/weather-app",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^1.1.0",
     "lodash": "^3.10.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -18,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
